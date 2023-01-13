@@ -46,6 +46,7 @@ const Quotable = () => {
   }, []);
 
   return (
+    
     <div className="main" style={myStyle}>
       <div className="box">
         <h1 className="header">{quote}</h1>
@@ -55,7 +56,13 @@ const Quotable = () => {
           </button>
         </div>
       </div>
-    </div>
+      
+     
+      <footer className="footer" id="watermark">
+       <strong> Made with ❤️ by Pranshu Gupta</strong> 
+      </footer>
+      </div>
+    
   );
 };
 

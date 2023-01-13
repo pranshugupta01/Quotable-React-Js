@@ -39,7 +39,9 @@
     height: 300px;
   }
   
- 
+ .footer{
+  align-items: flex-end;
+ }
 
 /* CSS */
 .button-89 {
@@ -77,6 +79,13 @@
   color: #fff;
 }
   
+
+#watermark { 
+  position: fixed; 
+  bottom: 0; 
+  right: 0; 
+  z-index:999; }
+
   @media only screen and (max-width: 600px) {
     .box {
         width: 80%;
